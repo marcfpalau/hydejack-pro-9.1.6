@@ -1,0 +1,131 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Marc Fernández Palau"
+  label: "System administrator"
+  picture: "/assets/img/retrato1.jpg"
+  email: "marc.fernandez.palau@gmail.com"
+  #phone: "(+34) 666 666 666"
+  website: "https://marcfpalau.github.io"
+  summary: >
+    My interests in terms of the professional career I want to develop are oriented towards networks and
+    computer systems, that's why I'm studying the specialty of information technologies within
+    of [my university degree at UPC](https://www.fib.upc.edu/ca/estudis/graus/grau-en-enginyeria-informatica/pla-destudis/especialitats/tecnologies-de-la-informacio), 
+    which broadly focuses on these fields. In the close future my goal is to get the [Comptia Security+](https://www.comptia.org/es/certificaciones/security)
+    and [Comptia Pentest+](https://www.comptia.org/es/certificaciones/pentest) certs and acquire professional experience in 
+    the cybersecurity field (preferably pentesting).
+    If you’re interested in someone with my skill-set, or would like to discuss something tech related feel free to reach out.
+    I’d love to talk.
+  location:
+    city: "Sant Cugat del Vallés"
+    countryCode: "España"
+    region: "Barcelona"
+  profiles:
+    - network: "LinkedIn"
+      username: "Marc Fernandez"
+      url: "www.linkedin.com/in/marc-fernandez-palau"
+work:
+  - company: "Universitat de Barcelona"
+    position: "System administrator"
+    website: "https://www.ub.edu/portal/web/dp-materia-condensada"
+    startDate: "2021-01-15"
+    endDate: ""
+    summary: >
+      Administration of the network services/resources and the high performance resources of a department in the Physics school in University of Barcelona.
+    highlights:
+      - "Documented assets and procedures"
+      - "Implemented monitoring systems"
+      - "Built a slurm HPC cluster"
+# - company: "Universitat Politécnica de Catalunya"
+#     position: "Helpdesk"
+#     website: "https://telecos.upc.edu/es"
+#     startDate: "2021-03-01"
+#     endDate: "2021-12-31"
+#     summary: >
+#       Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
+#       consistently fielded high Weisman Scores™ that are not merely competitive,
+#       but approach the theoretical limit of lossless compression.
+#     highlights:
+#      - ""
+volunteer:
+  - organization: "Residencia Betània"
+    position: "Assistant"
+    #website: "https://coderdojo.com/"
+    startDate: "2015-09-01"
+    endDate: "2016-07-01"
+    summary: "Voluteering in cooperation with Sant Ignasi Sarrià taking care of old people."
+    #highlights:
+    #  - "Awarded 'Teacher of the Month'"
+education:
+  - institution: "Universitat Politécnica de Catalunya"
+    area: "Computer engineering"
+    studyType: "Bachelor"
+    startDate: "2017-09-10"
+    endDate: "2022-12-21"
+    #gpa: "4.0"
+    courses:
+      - "Mention in IT"
+#awards:
+#  - title: "Digital Compression Pioneer Award"
+#    date: "2014-11-01"
+#    awarder: "Techcrunch"
+#    summary: "There is no spoon."
+it-certificates:
+  - name: "Video compression for 3d media"
+    publisher: "Hooli"
+    releaseDate: "2014-10-01"
+    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+# add a download diploma
+skills:
+  - name: CAD design and 3D printing
+    level: "Intermediate"
+    keywords:
+      - "OpenSCAD"
+      - "Fusion 360"
+  - name: Programing (C++, Java, bases de datos SQL)
+    level: "Intermediate"
+    keywords: 
+      - "C++"
+      - "C"
+      - "Java"
+      - "SQL"
+  - name: Networks and Linux systems
+    level: "Intermediate"
+    keywords:
+      - "DHCP"
+      - "DNS"
+      - "SSH"
+      - "Network monitoring"
+      - "Bash"
+      - "Docker"
+      - "more to think..."
+  - name: Soft skills
+    level: "Professional"
+    keywords:
+      - "Compromised"
+      - "Proactive"
+      - "Motivated"
+
+languages:
+  - language: "Català"
+    fluency: "Native speaker"
+  - language: "Español"
+    fluency: "Native speaker"
+  - language: "English"
+    fluency: "Professional working proficiency"
+
+interests:
+  - name: "Motorsport"
+    keywords:
+      - "Motorcycles"
+  - name: "Photography"
+    keywords:
+      - "50mm"
+      - "tele"
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
