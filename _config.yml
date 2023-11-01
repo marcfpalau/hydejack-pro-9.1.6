@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+#url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -25,8 +25,8 @@ title:                 Marc Fernandez
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Explore Marc Fernandez's digital playground where the world of cybersecurity
+  unfolds, offering ethical hacking, and digital risk management posts.
 
 # A shorter description for the sidebar.
 tagline:               IT Professional
@@ -38,17 +38,18 @@ keywords:              []
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/retrato1.jpg
-
+favicon: /assets/img/terminal.png
+apple_touch_icon: /assets/img/terminal.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Marc Fernandez Palau
   picture:             /assets/img/retrato1.jpg
   email:               marc.fernandez.palau@gmail.com
-  about:	       |
+  about:      |
     Hi, I'm Marc F.
     Welcome to my page!
-    
+
   # # Used by `jekyll-seo-tag`:
   # twitter:             marcfpalau
 
@@ -56,14 +57,12 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             About
-    url:               /about/
   - title:             Résumé
     url:               /resume/
   - title:             Projects
     url:               /projects/
-  - title:             Contact
-    url:               /contact/
+  - title:             About
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -95,7 +94,7 @@ paginate_path:         /blog/:num/
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
- 
+
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar.jpg
 accent_color:          rgb(152,251,152)

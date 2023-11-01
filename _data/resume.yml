@@ -3,51 +3,45 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Marc Fernández Palau"
-  label: "System administrator"
+  label: "IT professional"
   picture: "/assets/img/retrato1.jpg"
   email: "marc.fernandez.palau@gmail.com"
   #phone: "(+34) 666 666 666"
   website: "https://marcfpalau.github.io"
   summary: >
-    My interests in terms of the professional career I want to develop are oriented towards networks and
-    computer systems, that's why I'm studying the specialty of information technologies within
-    of [my university degree at UPC](https://www.fib.upc.edu/ca/estudis/graus/grau-en-enginyeria-informatica/pla-destudis/especialitats/tecnologies-de-la-informacio), 
-    which broadly focuses on these fields. In the close future my goal is to get the [Comptia Security+](https://www.comptia.org/es/certificaciones/security)
-    and [Comptia Pentest+](https://www.comptia.org/es/certificaciones/pentest) certs and acquire professional experience in 
-    the cybersecurity field (preferably pentesting).
-    If you’re interested in someone with my skill-set, or would like to discuss something tech related feel free to reach out.
+    I'm enthusiastic about pursuing a career in cybersecurity, particularly in the realm of penetration testing and network security. I recently achieved the prestigious OSCP
+    certification, which aligns perfectly with my professional interests. My ultimate goal is to gain hands-on experience and excel in the cybersecurity field, focusing on penetration testing.
+
+    If you're in search of someone with my skill set or would like to engage in tech-related discussions, please don't hesitate to reach out. 
     I’d love to talk.
   location:
-    city: "Sant Cugat del Vallés"
-    countryCode: "España"
+    countryCode: "Spain"
     region: "Barcelona"
   profiles:
     - network: "LinkedIn"
       username: "Marc Fernandez"
-      url: "www.linkedin.com/in/marc-fernandez-palau"
+      url: "https://www.linkedin.com/in/marc-fernandez-palau"
 work:
   - company: "Universitat de Barcelona"
     position: "System administrator"
     website: "https://www.ub.edu/portal/web/dp-materia-condensada"
-    startDate: "2021-01-15"
-    endDate: ""
+    startDate: "2022-01-15"
+    endDate: "2023-02-01"
     summary: >
-      Administration of the network services/resources and the high performance resources of a department in the Physics school in University of Barcelona.
+      Administration of the network services and the high performance computing resources of a department in the Physics school in University of Barcelona.
     highlights:
-      - "Documented assets and procedures"
+      - "Documented all assets and procedures"
       - "Implemented monitoring systems"
-      - "Built a slurm HPC cluster"
-# - company: "Universitat Politécnica de Catalunya"
-#     position: "Helpdesk"
-#     website: "https://telecos.upc.edu/es"
-#     startDate: "2021-03-01"
-#     endDate: "2021-12-31"
-#     summary: >
-#       Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-#       consistently fielded high Weisman Scores™ that are not merely competitive,
-#       but approach the theoretical limit of lossless compression.
-#     highlights:
-#      - ""
+      - "Built a slurm High Performance Computing cluster"
+      - "Improved overall security"
+  - company: "ETSETB"
+    position: "Helpdesk"
+    website: "https://telecos.upc.edu/es"
+    startDate: "2021-03-01"
+    endDate: "2021-12-31"
+    summary: >
+      Providing technical assistance within the Informatics Services Department at the Escuela Técnica Superior de Ingeniería de Telecomunicaciones de Barcelona (ETSETB).
+
 volunteer:
   - organization: "Residencia Betània"
     position: "Assistant"
@@ -66,33 +60,40 @@ education:
     #gpa: "4.0"
     courses:
       - "Mention in IT"
-#awards:
-#  - title: "Digital Compression Pioneer Award"
-#    date: "2014-11-01"
-#    awarder: "Techcrunch"
-#    summary: "There is no spoon."
-it-certificates:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
-# add a download diploma
+  - institution: "Offensive Security"
+    area: "Offensive Security Certified Pentester (OSCP)"
+    studyType: "Certification"
+    startDate: "2023-10-05"
+    endDate: "2023-10-05"
+    #gpa: "4.0"
+    courses:
+      - "Diploma URL:"
+
 skills:
-  - name: CAD design and 3D printing
+  - name: Cybersecurity and Penetration Testing
     level: "Intermediate"
     keywords:
-      - "OpenSCAD"
-      - "Fusion 360"
-  - name: Programing (C++, Java, bases de datos SQL)
+      - "Active Directory"
+      - "Web testing"
+      - "Password attacks"
+      - "Privilege escalation"
+      - "Client-side attacks"
+      - "Network services"
+      - "Tunneling"
+      - "Cryptography"
+      - "Antivirus bypass"
+
+  - name: Programming and scripting
     level: "Intermediate"
-    keywords: 
+    keywords:
+      - "Bash"
+      - "Python"
       - "C++"
       - "C"
       - "Java"
       - "SQL"
   - name: Networks and Linux systems
-    level: "Intermediate"
+    level: "Professional"
     keywords:
       - "DHCP"
       - "DNS"
@@ -100,13 +101,18 @@ skills:
       - "Network monitoring"
       - "Bash"
       - "Docker"
-      - "more to think..."
+      - "Permissions"
+      - "Services"
+      - "Cron jobs"
+      - "Firewalls"
   - name: Soft skills
     level: "Professional"
     keywords:
-      - "Compromised"
+      - "Commited"
       - "Proactive"
       - "Motivated"
+      - "Analytical thinking"
+      - "Communication"
 
 languages:
   - language: "Català"
@@ -116,14 +122,6 @@ languages:
   - language: "English"
     fluency: "Professional working proficiency"
 
-interests:
-  - name: "Motorsport"
-    keywords:
-      - "Motorcycles"
-  - name: "Photography"
-    keywords:
-      - "50mm"
-      - "tele"
 #references:
 #  - name: "Erlich Bachman"
 #    reference: >

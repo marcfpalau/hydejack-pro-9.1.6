@@ -7,13 +7,12 @@ author1:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             
-    I am Marc and I hack and design hardware and web dev projects to try & stand out 
-    in the crowd and mentor the engineers of tomorrow.
-    I created this personal website as a means to keep track of my creations, talk about my experience 
-    as an Engineer, and give guidance to anyone looking for common interests.
-    
-    
+  about:
+    Hey there, I'm Marc, and I'm absolutely fascinated by the world of cybersecurity and hacking.
+    This personal website is my space to keep a record of my projects, discuss my experiences as an engineer,
+    and offer guidance to anyone who shares similar interests.
+
+
     # This photo will be used in the about section
   picture:
     path:            "/assets/img/retrato1.jpg"
