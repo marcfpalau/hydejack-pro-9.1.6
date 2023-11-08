@@ -21,6 +21,12 @@ basics:
     - network: "LinkedIn"
       username: "Marc Fernandez"
       url: "https://www.linkedin.com/in/marc-fernandez-palau"
+    - network: "Personal"
+      username: "Recommendation letter"
+      url: "/assets/recommendation_letter_Marc_Fernandez_Palau.pdf"
+    - network: "Website"
+      username: "OSCP Certification"
+      url: "https://www.credential.net/8ccc3328-47d8-4ee9-ac10-69e7e1fce0a5"
 work:
   - company: "Universitat de Barcelona"
     position: "System administrator"
@@ -67,7 +73,7 @@ education:
     endDate: "2023-10-05"
     #gpa: "4.0"
     courses:
-      - "Diploma URL:"
+    #website: "https://www.credential.net/8ccc3328-47d8-4ee9-ac10-69e7e1fce0a5"
 
 skills:
   - name: Cybersecurity and Penetration Testing
@@ -122,8 +128,11 @@ languages:
   - language: "English"
     fluency: "Professional working proficiency"
 
-#references:
-#  - name: "Erlich Bachman"
-#    reference: >
-#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-#      Company proved that he will be a valuable addition to any company.
+references:
+  - name: "David Reguera"
+    reference: >
+      Marc is a very nice person, very responsible, and hard worker. He has excellent administration
+      and technical skills, and has become an expert in the administration of scientific clusters. He is also a
+      very active, helpful and proactive person, capable to come up with the right solution to every problem,
+      undertake it independently, and succeed in achieving the proposed goals.
+

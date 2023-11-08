@@ -10,5 +10,6 @@ sitemap: false
 ## Some of my projects so far
 <!--projects-->
 
-## Check also my blog posts about CyberSec!
-<!--blog-->
+## Check also my HackTheBox writeups!
+<!--posts-->
+
