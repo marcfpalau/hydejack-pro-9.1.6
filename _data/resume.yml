@@ -27,7 +27,20 @@ basics:
     - network: "Website"
       username: "OSCP Certification"
       url: "https://www.credential.net/8ccc3328-47d8-4ee9-ac10-69e7e1fce0a5"
+    - network: "Website"
+      username: "OSWP Certification"
+      url: "https://www.credential.net/ce20842a-29fc-43c1-b066-645e12220259"
 work:
+  - company: "EY"
+    position: "Cybersecurity Consultant"
+    website: "https://www.ey.com/en_es/cybersecurity"
+    startDate: "2023-12-01"
+    summary: >
+      Security Consultant in the Security Operations Center (SOC) focused on Splunk systems implementation projects, use case development and penetration testing (Active Directory, WiFi, Linux, Windows, Web).
+    highlights:
+      - "Generation of correlation rules"
+      - "Design and implementation of splunk"
+      - "Penetration testing (Active Directory, Windows, Linux, Web, WiFi)"
   - company: "Universitat de Barcelona"
     position: "System administrator"
     website: "https://www.ub.edu/portal/web/dp-materia-condensada"
@@ -74,6 +87,14 @@ education:
     #gpa: "4.0"
     courses:
     #website: "https://www.credential.net/8ccc3328-47d8-4ee9-ac10-69e7e1fce0a5"
+  - institution: "Offensive Security"
+    area: "Offensive Security Wireless Professional (OSWP)"
+    studyType: "Certification"
+    startDate: "2024-01-07"
+    endDate: "2024-01-07"
+    #gpa: "4.0"
+    courses:
+    #website: "https://www.credential.net/ce20842a-29fc-43c1-b066-645e12220259"
 
 skills:
   - name: Cybersecurity and Penetration Testing
